@@ -43,7 +43,17 @@
                         <li>Batterie longue durée 5000mAh</li>
                         <li>Stockage jusqu’à 512GB</li>
                     </ul>
-                    <a class="btn btn-primary btn-lg mt-3" href="#">Ajouter au panier</a>
+                    <button 
+                    onclick="gtag('event','add_to_cart',{ 'produit':'Smartphone Ultra 12' });"
+                    class="btn btn-success">
+                    Ajouter au panier
+                    </button>
+
+                    <button 
+                    onclick="gtag('event','purchase_click',{ 'produit':'Smartphone Ultra 12' });"
+                    class="btn btn-danger">
+                    Acheter maintenant
+                    </button>
                 </div>
             </div>
         </div>

@@ -39,7 +39,16 @@
                             Suivez votre activité, votre rythme cardiaque et vos notifications directement au poignet avec la Montre Connectée ActiveX, design moderne et fonctionnalités avancées.
                         </p>
                         <h4>Prix : 199€</h4>
-                        <button class="btn btn-success btn-lg">Ajouter au panier</button>
+                        <button 
+                        onclick="gtag('event','add_to_cart',{ 'produit':'Montre ActiveX' });"
+                        class="btn btn-success">
+                        Ajouter au panier
+                        </button>
+                        <button 
+                        onclick="gtag('event','purchase_click',{ 'produit':'Montre ActiveX' });"
+                        class="btn btn-danger">
+                        Acheter maintenant
+                        </button>
                     </div>
                 </div>
             </div>
